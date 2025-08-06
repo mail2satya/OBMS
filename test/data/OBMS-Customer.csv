@@ -1,0 +1,6 @@
+ID;customerId;name;email;phoneNumber
+50e3ea6d-4242-4c3b-975c-f40c1fa2956d;CUST001;Alice Johnson;alice.johnson@example.com;1234567890
+fba3dc47-2479-461d-bcba-1f1d836e9079;CUST002;Bob Smith;bob.smith@example.com;0987654321
+2b6f53f9-82d6-46d7-a021-a00c39be72d3;CUST003;Charlie Brown;charlie.brown@example.com;2345678901
+d6118194-b44e-436b-a263-3036f0931fc3;CUST004;David Wilson;david.wilson@example.com;3456789012
+0092025c-0117-48ef-b828-cc200cea8b96;CUST005;Eva Green;eva.green@example.com;4567890123

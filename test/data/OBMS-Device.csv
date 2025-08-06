@@ -1,0 +1,6 @@
+ID;deviceId;model;price;paymentType;postpaidConnection_ID
+50e3ea6d-4242-4c3b-975c-f40c1fa2956d;DEV001;iPhone 13;999.99;full payment;50e3ea6d-4242-4c3b-975c-f40c1fa2956d
+fba3dc47-2479-461d-bcba-1f1d836e9079;DEV002;Samsung Galaxy S21;799.99;finance;fba3dc47-2479-461d-bcba-1f1d836e9079
+2b6f53f9-82d6-46d7-a021-a00c39be72d3;DEV003;Google Pixel 6;599.99;full payment;2b6f53f9-82d6-46d7-a021-a00c39be72d3
+d6118194-b44e-436b-a263-3036f0931fc3;DEV004;OnePlus 9;729.99;finance;d6118194-b44e-436b-a263-3036f0931fc3
+0092025c-0117-48ef-b828-cc200cea8b96;DEV005;Xiaomi Mi 11;749.99;full payment;0092025c-0117-48ef-b828-cc200cea8b96

@@ -1,0 +1,1 @@
+using oBMSSrv as service from '../../srv/service';

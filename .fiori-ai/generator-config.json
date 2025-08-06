@@ -1,0 +1,32 @@
+{
+    "version": "0.2",
+    "floorplan": "FE_LROP",
+    "project": {
+        "name": "customer-management",
+        "targetFolder": "/home/user/projects/OBMS",
+        "title": "Customer Management",
+        "description": "Manage customer information efficiently",
+        "ui5Version": "1.136.0",
+        "localUI5Version": "1.82.2",
+        "sapux": true
+    },
+    "service": {
+        "servicePath": "/service/oBMS/",
+        "capService": {
+            "projectPath": "/home/user/projects/OBMS",
+            "serviceName": "oBMSSrv",
+            "serviceCdsPath": "srv/service"
+        }
+    },
+    "entityConfig": {
+        "mainEntity": {
+            "entityName": "Customer"
+        },
+        "generateLROPAnnotations": true
+    },
+    "projectTemplateType": "LIST_REPORT_OBJECT_PAGE",
+    "telemetryData": {
+        "generationSourceName": "AI Headless",
+        "generationSourceVersion": "1.18.4"
+    }
+}

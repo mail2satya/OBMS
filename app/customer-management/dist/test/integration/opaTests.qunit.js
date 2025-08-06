@@ -1,0 +1,2 @@
+sap.ui.require(["sap/fe/test/JourneyRunner","customermanagement/test/integration/FirstJourney","customermanagement/test/integration/pages/CustomerList","customermanagement/test/integration/pages/CustomerObjectPage"],function(e,t,n,r){"use strict";var e=new e({launchUrl:sap.ui.require.toUrl("customermanagement")+"/index.html"});e.run({pages:{onTheCustomerList:n,onTheCustomerObjectPage:r}},t.run)});
+//# sourceMappingURL=opaTests.qunit.js.map
