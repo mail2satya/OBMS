@@ -7,6 +7,7 @@ entity Customer : cuid {
   name: String(100);
   email: String(100);
   phoneNumber: String(15);
+  photo: LargeBinary @mandatory;
 }
 
 @assert.unique: { connectionId: [connectionId] }
@@ -26,4 +27,3 @@ entity Device : cuid {
   paymentType: String(50);
   postpaidConnection: Association to PostpaidConnection;
 }
-
