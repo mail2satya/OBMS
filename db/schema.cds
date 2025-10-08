@@ -7,7 +7,13 @@ entity Customer : cuid {
   name: String(100);
   email: String(100);
   phoneNumber: String(15);
-  photo: LargeBinary @mandatory;
+  photo: Association to one Photo;
+}
+
+entity Photo : cuid {
+  @Core.MediaType: mediaType
+  content: LargeBinary;
+  mediaType: String;
 }
 
 @assert.unique: { connectionId: [connectionId] }
