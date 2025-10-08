@@ -127,7 +127,17 @@
           "options": {
             "settings": {
               "editableHeaderContent": false,
-              "contextPath": "/Customer"
+              "contextPath": "/Customer",
+              "controlConfiguration": {
+                "actions": {
+                  "replicateAction": {
+                    "label": "{{replicateAction}}",
+                    "press": "oBMSSrv.replicate",
+                    "visible": true,
+                    "enabled": true
+                  }
+                }
+              }
             }
           }
         }

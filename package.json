@@ -35,17 +35,11 @@
   },
   "cds": {
     "requires": {
+      "db": "sqlite",
+      "auth": "dummy",
       "[production]": {
         "db": "hana",
         "auth": "xsuaa"
-      },
-      "auth": {
-        "[development]": {
-          "kind": "dummy"
-        },
-        "[production]": {
-          "kind": "xsuaa"
-        }
       }
     }
   },
